@@ -1,0 +1,13 @@
+
+
+/* Import Tailwind's default styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+  color: #333;
+}
