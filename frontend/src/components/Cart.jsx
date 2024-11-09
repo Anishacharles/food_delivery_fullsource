@@ -83,6 +83,8 @@ import React, { useContext } from "react";
 import { CartContext } from "../contexts/CartContext";
 import { API_URL } from "../api";
 
+
+
 const Cart = () => {
   const { cartItems, removeFromCart, updateCartQuantity } = useContext(CartContext);
 
@@ -182,7 +184,8 @@ const Cart = () => {
         handler: function (response) {
           console.log("Payment Response:", response);
         //   // After successful payment, redirect to order status page with order_id
-        // window.location.href = `/order-status?order_id=${order.order.id}`; 
+        window.location.href = '/'; 
+        
         },
         prefill: {
           name: "Your Customer Name",

@@ -23,10 +23,7 @@ export const productData = [{
     product_img: "/item/Momos.jpeg",
     name: "Momos"
 },
-// {
-//     product_img: "/item/Poori.jpeg",
-//     name: "Poori"
-// },
+
 {
     product_img: "/item/Seafood.jpeg",
     name: "Seafood"
