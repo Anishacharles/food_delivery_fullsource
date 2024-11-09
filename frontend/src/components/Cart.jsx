@@ -181,8 +181,8 @@ const Cart = () => {
         order_id: order.order.id, // Razorpay order ID
         handler: function (response) {
           console.log("Payment Response:", response);
-          // After successful payment, redirect to order status page with order_id
-        window.location.href = `/order-status?order_id=${order.order.id}`; 
+        //   // After successful payment, redirect to order status page with order_id
+        // window.location.href = `/order-status?order_id=${order.order.id}`; 
         },
         prefill: {
           name: "Your Customer Name",
